@@ -1,0 +1,112 @@
+body{
+    background-image: url("pic/p7.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+}
+#nena{
+    color: antiquewhite;
+}
+.per{
+    color: cadetblue;
+    font-family: "Amatic Sc ";
+    border-style: solid;
+    border-width: 4px;
+    border-color:rgb(210, 212, 72);
+    padding: auto;
+    background: linear-gradient(rgb(229, 255, 0),rgb(255, 255, 255));
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+
+#bu1{
+    background-color: rgb(30, 23, 15);
+    color:rgb(255, 238, 0);
+    border-radius:  10px;
+}
+.heading{
+    color: rgba(229, 230, 224, 0.658);
+    font-family: "Asimovian",michroma ;
+    border-top-style: dotted;
+    border-bottom-style: dotted;
+    border-left-style:double;
+    border-right-style:double ;
+    text-shadow:5px 5px 2px rgb(103, 105, 69);
+
+    animation: myRotate;
+    animation-play-state:running;
+    animation-iteration-count: 1 ;
+    animation-delay: 0ms;
+    animation-timing-function: ease-in-out;
+    animation-duration: 5s;
+
+}
+.love{
+    color: rgb(255, 0, 174);
+}
+.mass{
+    color: rgb(168, 109, 15);
+}
+.sps{
+    color: blanchedalmond;
+}
+.fun{
+    color: aqua;
+}
+.sad{
+    color: rgb(255, 255, 255);
+}
+.ins{
+    color: darkgoldenrod;
+}
+.links{
+    font-family:"Epunda slab" ;
+}
+.pic1{
+    box-shadow: 5px 5px 2px gray;
+
+}
+.mat{
+    color: rgb(255, 253, 196);
+    background: linear-gradient(to right,rgb(239, 74, 74), rgb(62, 62, 209));
+    font-family: "kode mono";
+    border-top-style: dotted;
+    border-bottom-style: dotted;
+    border-left-style:dotted;
+    border-right-style:dotted ;
+}
+.mat:hover{
+    background: linear-gradient(to left,rgb(239, 74, 74), rgb(62, 62, 209));
+}
+a:link{
+    color: rgb(104, 48, 189);
+}
+a:visited{
+    color: aqua;
+}
+a:hover{
+    color:blue ;
+}
+#bu1:hover{
+    background-color: rgb(192, 130, 37) ;
+}
+.pic2{
+    position:fixed ;
+    top: 0px;
+    right: 0px ;
+    animation : bou;
+}
+@keyframes bou{
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-20px);
+    }
+    
+}
+@keyframes myRotate{
+    100%{transform:rotatex(360deg)};
+}
